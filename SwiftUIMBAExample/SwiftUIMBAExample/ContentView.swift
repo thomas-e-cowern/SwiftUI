@@ -9,16 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // Properties
+    var player: Player
+    
     var body: some View {
         VStack {
-            Image("gs").resizable().aspectRatio(contentMode: .fit)
-            Image("steph").clipShape(Circle()).background(Circle()).foregroundColor(.white).overlay(Circle().stroke(Color.white, lineWidth: 4)).offset(x: 0, y: -90).padding(.bottom, -90).shadow(radius: 15)
+            Image(player.team.imageName).resizable().aspectRatio(contentMode: .fit)
+            Image(player.imageName).clipShape(Circle()).background(Circle()).foregroundColor(.white).overlay(Circle().stroke(Color.white, lineWidth: 4)).offset(x: 0, y: -90).padding(.bottom, -90).shadow(radius: 15)
             
-            Text("Steph Curry").font(.system(size: 50)).fontWeight(.heavy)
+            Text(player.name).font(.system(size: 50)).fontWeight(.heavy)
             
-            CapitalStatText(statName: "Age", statValue: "32")
-            CapitalStatText(statName: "Height", statValue: "6'3")
-            CapitalStatText(statName: "Weight", statValue: "190lbs")
+            CapitalStatText(statName: "Age", statValue: "\(player.age)")
+            CapitalStatText(statName: "Height", statValue: player.height)
+            CapitalStatText(statName: "Weight", statValue: "\(player.weight)lbs")
             
             Spacer()
         }.edgesIgnoringSafeArea(.top)
@@ -27,6 +31,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(player: players[1])
     }
 }

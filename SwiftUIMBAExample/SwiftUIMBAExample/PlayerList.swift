@@ -13,7 +13,7 @@ struct PlayerList: View {
         NavigationView {
             List(players) {
                 currentPlayer in
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: ContentView(player: currentPlayer)) {
                     PlayerRow(player: currentPlayer).frame(height: 60)
                 }
             }.navigationBarTitle(Text("NBA Title Players"))
