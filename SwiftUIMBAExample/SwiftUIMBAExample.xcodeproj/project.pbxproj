@@ -15,6 +15,8 @@
 		41E6077E23CCCF780052492D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E6077C23CCCF780052492D /* LaunchScreen.storyboard */; };
 		41E6078623CCD13B0052492D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6078523CCD13B0052492D /* Player.swift */; };
 		41E6078823CCDAE60052492D /* CapitalStatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6078723CCDAE60052492D /* CapitalStatText.swift */; };
+		41E6078A23CCE0070052492D /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6078923CCE0070052492D /* PlayerRow.swift */; };
+		41E6078C23CCE5080052492D /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E6078B23CCE5080052492D /* PlayerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		41E6077F23CCCF780052492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41E6078523CCD13B0052492D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		41E6078723CCDAE60052492D /* CapitalStatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalStatText.swift; sourceTree = "<group>"; };
+		41E6078923CCE0070052492D /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		41E6078B23CCE5080052492D /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				41E6077123CCCF750052492D /* AppDelegate.swift */,
 				41E6077323CCCF750052492D /* SceneDelegate.swift */,
 				41E6077523CCCF750052492D /* ContentView.swift */,
+				41E6078B23CCE5080052492D /* PlayerList.swift */,
+				41E6078923CCE0070052492D /* PlayerRow.swift */,
 				41E6078723CCDAE60052492D /* CapitalStatText.swift */,
 				41E6077723CCCF780052492D /* Assets.xcassets */,
 				41E6077C23CCCF780052492D /* LaunchScreen.storyboard */,
@@ -157,6 +163,8 @@
 				41E6077223CCCF750052492D /* AppDelegate.swift in Sources */,
 				41E6077423CCCF750052492D /* SceneDelegate.swift in Sources */,
 				41E6077623CCCF750052492D /* ContentView.swift in Sources */,
+				41E6078C23CCE5080052492D /* PlayerList.swift in Sources */,
+				41E6078A23CCE0070052492D /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
