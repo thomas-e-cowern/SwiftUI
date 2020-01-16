@@ -18,7 +18,7 @@ struct CapitalStatText: View {
             Text(statName + ":").font(.system(size: 45)).fontWeight(.bold).padding(.leading, 30)
             Text(statValue).font(.system(size: 45)).fontWeight(.light).padding(.trailing, 30)
             Spacer()
-        }
+        }.minimumScaleFactor(0.6)
     }
 }
 
