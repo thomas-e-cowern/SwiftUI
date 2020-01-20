@@ -10,10 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Text("Hello"); Image("typewriter").resizable().aspectRatio(contentMode: .fit);
-            Text("Goodbye")
+        ZStack {
+            Image("typewriter").resizable().aspectRatio(contentMode: .fit);
+            Button(action: hello) {
+                Image(systemName: "play.fill").foregroundColor(.red).aspectRatio(contentMode: .fill).frame(width: 100, height: 100)
+            }
         }
+        
+        //        Button(action: hello) {
+        //            Text("New Button")
+        //        }
+    }
+    
+    func hello () {
+        print("This is the new Hello")
     }
 }
 
