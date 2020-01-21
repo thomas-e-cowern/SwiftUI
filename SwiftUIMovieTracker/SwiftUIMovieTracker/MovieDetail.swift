@@ -44,7 +44,7 @@ struct ContentView: View {
                         Spacer()
                         Text("Save")
                         Spacer()
-                    }
+                    }.disabled(movie.title.isEmpty)
                 }
             }
         }.listStyle(GroupedListStyle())
