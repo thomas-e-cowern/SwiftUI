@@ -9,18 +9,44 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var title = ""
+    @State var rating = 3.0
+    @State var seen = false
+    
     var body: some View {
         
-        Button(action: {}) {
-            HStack {
-                Text("Tap Me")
-                Image(systemName: "gamecontroller")
+        List {
+            Section {
+                TextField("Movie Title", text: $title)
             }
-        }.padding().background(Color.blue).cornerRadius(10).foregroundColor(.white)
-    }
-    
-    func hello () {
-        print("This is the new Hello")
+            Section {
+                HStack {
+                    Spacer()
+                    Text(String(repeating: "⭐️", count: Int(rating))).foregroundColor(.yellow).font(.title)
+                    Spacer()
+                }
+                Slider(value: $rating, in: 1...5, step: 1)
+            }
+            Section {
+                Toggle(isOn: $seen) {
+                    if title == "" {
+                        Text("I Have Seen This Movie")
+                    } else {
+                        Text("I Have Seen \(title)")
+                    }
+                }
+            }
+            Section {
+                Button(action: {}) {
+                    HStack {
+                        Spacer()
+                        Text("Save")
+                        Spacer()
+                    }
+                }
+            }
+        }.listStyle(GroupedListStyle())
     }
 }
 
