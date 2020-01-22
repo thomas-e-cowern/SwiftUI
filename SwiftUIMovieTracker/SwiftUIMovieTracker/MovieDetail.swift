@@ -12,7 +12,7 @@ struct ContentView: View {
     
     @State var movie: Movie
     @Environment(\.presentationMode) var presentationMode
-    @EnvironmentObject var movieStorage : MovieStorage
+    @ObservedObject var movieStorage : MovieStorage
     let newMovie: Bool
     
     var body: some View {
@@ -26,10 +26,10 @@ struct ContentView: View {
                 HStack {
                     SectionTitle(title: "Rating")
                     Spacer()
-                    Text(String(repeating: "⭐️", count: Int(movie.rating))).foregroundColor(.yellow).font(.title)
+                    Text(String(repeating: "⭐️", count: Int(movie.rating))).foregroundColor(.yellow).font(.title).accessibility(label: Text("\(Int(movie.rating)) star rating"))
                     Spacer()
                 }
-                Slider(value: $movie.rating, in: 1...5, step: 1)
+                Slider(value: $movie.rating, in: 1...5, step: 1).accessibility(value: Text("\(Int(movie.rating)) star rating"))
             }
             Section {
                 SectionTitle(title: "Seen")
@@ -67,7 +67,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(movie: Movie(), newMovie: true)
+        ContentView(movie: Movie(), movieStorage: MovieStorage(), newMovie: true)
     }
 }
 
