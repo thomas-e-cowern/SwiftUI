@@ -10,17 +10,16 @@ import SwiftUI
 
 struct MovieList: View {
     
-    @ObservedObject var movieStorage = MovieStorage()
+    @EnvironmentObject var movieStorage : MovieStorage
     
-//    var movies = [Movie(), Movie(), Movie()]
     
     var body: some View {
         NavigationView {
             List(movieStorage.movies) { currentMovie in
-                NavigationLink(destination: ContentView(movie: currentMovie, movieStorage: self.movieStorage, newMovie: false)) {
+                NavigationLink(destination: ContentView(movie: currentMovie, newMovie: false)) {
                     Text(currentMovie.title)
                 }
-            }.navigationBarTitle("Movies").navigationBarItems(trailing:  NavigationLink(destination: ContentView(movie: Movie(), movieStorage: movieStorage, newMovie: true)) {
+            }.navigationBarTitle("Movies").navigationBarItems(trailing:  NavigationLink(destination: ContentView(movie: Movie(), newMovie: true)) {
                 Image(systemName: "plus.circle.fill")
                 }
             )

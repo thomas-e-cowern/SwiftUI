@@ -12,7 +12,7 @@ struct ContentView: View {
     
     @State var movie: Movie
     @Environment(\.presentationMode) var presentationMode
-    @ObservedObject var movieStorage : MovieStorage
+    @EnvironmentObject var movieStorage : MovieStorage
     let newMovie: Bool
     
     var body: some View {
@@ -46,7 +46,11 @@ struct ContentView: View {
                     if self.newMovie {
                         self.movieStorage.movies.append(self.movie)
                     } else {
-                        
+                        for i in 0..<self.movieStorage.movies.count {
+                            if self.movieStorage.movies[i].id == self.movie.id {
+                                self.movieStorage.movies[i] = self.movie
+                            }
+                        }
                     }
                     self.presentationMode.wrappedValue.dismiss()
                 }) {
@@ -63,7 +67,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(movie: Movie(), movieStorage: MovieStorage(), newMovie: true)
+        ContentView(movie: Movie(), newMovie: true)
     }
 }
 
