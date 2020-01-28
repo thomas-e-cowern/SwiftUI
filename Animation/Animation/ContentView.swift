@@ -17,7 +17,7 @@ struct ContentView: View {
         VStack {
             Funny().rotationEffect(.init(degrees: 100 * multiplier))
             if show {
-                Funny().transition(.slide)
+                Funny().transition(.scale)
             }
             Funny().rotationEffect(.init(degrees: 100 * multiplier))
             Button(action: {
