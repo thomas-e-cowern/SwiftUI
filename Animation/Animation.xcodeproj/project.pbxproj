@@ -13,10 +13,11 @@
 		41D0D81123E066B5003956B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D0D81023E066B5003956B4 /* Assets.xcassets */; };
 		41D0D81423E066B5003956B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D0D81323E066B5003956B4 /* Preview Assets.xcassets */; };
 		41D0D81723E066B5003956B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D0D81523E066B5003956B4 /* LaunchScreen.storyboard */; };
+		41E41EAD23E07D8F004EA73C /* Funny.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E41EAC23E07D8F004EA73C /* Funny.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41D0D80723E066A5003956B4 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D0D80723E066A5003956B4 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D0D80A23E066A5003956B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41D0D80C23E066A5003956B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41D0D80E23E066A5003956B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		41D0D81323E066B5003956B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41D0D81623E066B5003956B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41D0D81823E066B5003956B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E41EAC23E07D8F004EA73C /* Funny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funny.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		41D0D80823E066A5003956B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41D0D80723E066A5003956B4 /* Animation.app */,
+				41D0D80723E066A5003956B4 /* AnimationTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +61,7 @@
 				41D0D80A23E066A5003956B4 /* AppDelegate.swift */,
 				41D0D80C23E066A5003956B4 /* SceneDelegate.swift */,
 				41D0D80E23E066A5003956B4 /* ContentView.swift */,
+				41E41EAC23E07D8F004EA73C /* Funny.swift */,
 				41D0D81023E066B5003956B4 /* Assets.xcassets */,
 				41D0D81523E066B5003956B4 /* LaunchScreen.storyboard */,
 				41D0D81823E066B5003956B4 /* Info.plist */,
@@ -92,7 +95,7 @@
 			);
 			name = Animation;
 			productName = Animation;
-			productReference = 41D0D80723E066A5003956B4 /* Animation.app */;
+			productReference = 41D0D80723E066A5003956B4 /* AnimationTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,6 +151,7 @@
 			files = (
 				41D0D80B23E066A5003956B4 /* AppDelegate.swift in Sources */,
 				41D0D80D23E066A5003956B4 /* SceneDelegate.swift in Sources */,
+				41E41EAD23E07D8F004EA73C /* Funny.swift in Sources */,
 				41D0D80F23E066A5003956B4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +297,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.Animation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.AnimationTest;
+				PRODUCT_NAME = AnimationTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,8 +317,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.Animation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.AnimationTest;
+				PRODUCT_NAME = AnimationTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
