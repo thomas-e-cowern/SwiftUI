@@ -19,6 +19,8 @@ struct Funny: View {
                 path.addLine(to: CGPoint(x: width, y: height))
                 path.addLine(to: CGPoint(x: width, y: 0))
             }.fill(LinearGradient(gradient: .init(colors: [.red, .yellow, .orange]), startPoint: .leading, endPoint: .trailing))
+            Circle()
+            Circle().fill(Color.yellow).padding()
         }
     }
 }
