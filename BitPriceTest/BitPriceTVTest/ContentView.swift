@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  BitPriceTest
+//  BitPriceTVTest
 //
-//  Created by Thomas Cowern New on 1/28/20.
+//  Created by Thomas Cowern New on 1/29/20.
 //  Copyright © 2020 Thomas Cowern New. All rights reserved.
 //
 
@@ -14,8 +14,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image("btc").resizable().aspectRatio(contentMode: .fit)
-            Text(dataStorage.btcPrice).font(.largeTitle)
+        Image("btc").resizable().aspectRatio(contentMode: .fit)
+            Text(dataStorage.btcPrice).font(.system(size: 180)).padding(.bottom)
         }
     }
 }

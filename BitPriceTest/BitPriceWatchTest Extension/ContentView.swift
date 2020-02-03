@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  BitPriceTest
+//  BitPriceWatchTest Extension
 //
-//  Created by Thomas Cowern New on 1/28/20.
+//  Created by Thomas Cowern New on 1/29/20.
 //  Copyright © 2020 Thomas Cowern New. All rights reserved.
 //
 

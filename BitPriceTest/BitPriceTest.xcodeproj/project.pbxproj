@@ -13,7 +13,75 @@
 		41A25F7F23E0CAE500351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F7E23E0CAE500351FFC /* Assets.xcassets */; };
 		41A25F8223E0CAE500351FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F8123E0CAE500351FFC /* Preview Assets.xcassets */; };
 		41A25F8523E0CAE500351FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F8323E0CAE500351FFC /* LaunchScreen.storyboard */; };
+		41A25F8D23E0CCF000351FFC /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25F8C23E0CCF000351FFC /* BitData.swift */; };
+		41A25F9523E0D2B300351FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25F9423E0D2B300351FFC /* AppDelegate.swift */; };
+		41A25F9723E0D2B300351FFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25F9623E0D2B300351FFC /* ContentView.swift */; };
+		41A25F9923E0D2B900351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F9823E0D2B900351FFC /* Assets.xcassets */; };
+		41A25F9C23E0D2B900351FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F9B23E0D2B900351FFC /* Preview Assets.xcassets */; };
+		41A25F9F23E0D2B900351FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F9D23E0D2B900351FFC /* Main.storyboard */; };
+		41A25FA523E0D2E900351FFC /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25F8C23E0CCF000351FFC /* BitData.swift */; };
+		41A25FA623E0D2EF00351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F7E23E0CAE500351FFC /* Assets.xcassets */; };
+		41A25FAE23E1B9A000351FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25FAD23E1B9A000351FFC /* AppDelegate.swift */; };
+		41A25FB023E1B9A000351FFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25FAF23E1B9A000351FFC /* ContentView.swift */; };
+		41A25FB223E1B9A800351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25FB123E1B9A800351FFC /* Assets.xcassets */; };
+		41A25FB523E1B9A800351FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25FB423E1B9A800351FFC /* Preview Assets.xcassets */; };
+		41A25FB823E1B9A800351FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A25FB623E1B9A800351FFC /* LaunchScreen.storyboard */; };
+		41A25FBD23E1BA1900351FFC /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25F8C23E0CCF000351FFC /* BitData.swift */; };
+		41A25FBE23E1BA1E00351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F7E23E0CAE500351FFC /* Assets.xcassets */; };
+		41A25FC523E1C20200351FFC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A25FC323E1C20200351FFC /* Interface.storyboard */; };
+		41A25FC723E1C20B00351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25FC623E1C20B00351FFC /* Assets.xcassets */; };
+		41A25FCE23E1C20C00351FFC /* BitPriceWatchTest Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41A25FCD23E1C20C00351FFC /* BitPriceWatchTest Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41A25FD323E1C20C00351FFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25FD223E1C20C00351FFC /* ContentView.swift */; };
+		41A25FD523E1C20C00351FFC /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25FD423E1C20C00351FFC /* HostingController.swift */; };
+		41A25FD723E1C20C00351FFC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25FD623E1C20C00351FFC /* ExtensionDelegate.swift */; };
+		41A25FD923E1C21000351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25FD823E1C21000351FFC /* Assets.xcassets */; };
+		41A25FDC23E1C21000351FFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25FDB23E1C21000351FFC /* Preview Assets.xcassets */; };
+		41A25FE023E1C21000351FFC /* BitPriceWatchTest.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 41A25FC123E1C20100351FFC /* BitPriceWatchTest.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41A25FE923E1C26500351FFC /* BitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A25F8C23E0CCF000351FFC /* BitData.swift */; };
+		41A25FEC23E1C36C00351FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A25F7E23E0CAE500351FFC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A25FCF23E1C20C00351FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A25F6D23E0CADB00351FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A25FCC23E1C20C00351FFC;
+			remoteInfo = "BitPriceWatchTest Extension";
+		};
+		41A25FDE23E1C21000351FFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A25F6D23E0CADB00351FFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A25FC023E1C20100351FFC;
+			remoteInfo = BitPriceWatchTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41A25FE423E1C21000351FFC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				41A25FCE23E1C20C00351FFC /* BitPriceWatchTest Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FE823E1C21000351FFC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				41A25FE023E1C21000351FFC /* BitPriceWatchTest.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		41A25F7523E0CADC00351FFC /* BitPriceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +92,58 @@
 		41A25F8123E0CAE500351FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41A25F8423E0CAE500351FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A25F8623E0CAE500351FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A25F8C23E0CCF000351FFC /* BitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitData.swift; sourceTree = "<group>"; };
+		41A25F9223E0D2B200351FFC /* BitPriceMacTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceMacTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A25F9423E0D2B300351FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41A25F9623E0D2B300351FFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41A25F9823E0D2B900351FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A25F9B23E0D2B900351FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A25F9E23E0D2B900351FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41A25FA023E0D2B900351FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A25FA123E0D2B900351FFC /* BitPriceMacTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitPriceMacTest.entitlements; sourceTree = "<group>"; };
+		41A25FAB23E1B99F00351FFC /* BitPriceTVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceTVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A25FAD23E1B9A000351FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41A25FAF23E1B9A000351FFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41A25FB123E1B9A800351FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A25FB423E1B9A800351FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A25FB723E1B9A800351FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41A25FB923E1B9A800351FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A25FC123E1C20100351FFC /* BitPriceWatchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitPriceWatchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A25FC423E1C20200351FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		41A25FC623E1C20B00351FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A25FC823E1C20B00351FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A25FCD23E1C20C00351FFC /* BitPriceWatchTest Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BitPriceWatchTest Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A25FD223E1C20C00351FFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41A25FD423E1C20C00351FFC /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		41A25FD623E1C20C00351FFC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		41A25FD823E1C21000351FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A25FDB23E1C21000351FFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A25FDD23E1C21000351FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		41A25F7223E0CADB00351FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25F8F23E0D2B200351FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FA823E1B99F00351FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FCA23E1C20C00351FFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				41A25F7723E0CADC00351FFC /* BitPriceTest */,
+				41A25F9323E0D2B300351FFC /* BitPriceMacTest */,
+				41A25FAC23E1B9A000351FFC /* BitPriceTVTest */,
+				41A25FC223E1C20200351FFC /* BitPriceWatchTest */,
+				41A25FD123E1C20C00351FFC /* BitPriceWatchTest Extension */,
 				41A25F7623E0CADC00351FFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +169,10 @@
 			isa = PBXGroup;
 			children = (
 				41A25F7523E0CADC00351FFC /* BitPriceTest.app */,
+				41A25F9223E0D2B200351FFC /* BitPriceMacTest.app */,
+				41A25FAB23E1B99F00351FFC /* BitPriceTVTest.app */,
+				41A25FC123E1C20100351FFC /* BitPriceWatchTest.app */,
+				41A25FCD23E1C20C00351FFC /* BitPriceWatchTest Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +183,7 @@
 				41A25F7823E0CADC00351FFC /* AppDelegate.swift */,
 				41A25F7A23E0CADC00351FFC /* SceneDelegate.swift */,
 				41A25F7C23E0CADC00351FFC /* ContentView.swift */,
+				41A25F8C23E0CCF000351FFC /* BitData.swift */,
 				41A25F7E23E0CAE500351FFC /* Assets.xcassets */,
 				41A25F8323E0CAE500351FFC /* LaunchScreen.storyboard */,
 				41A25F8623E0CAE500351FFC /* Info.plist */,
@@ -75,6 +200,80 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		41A25F9323E0D2B300351FFC /* BitPriceMacTest */ = {
+			isa = PBXGroup;
+			children = (
+				41A25F9423E0D2B300351FFC /* AppDelegate.swift */,
+				41A25F9623E0D2B300351FFC /* ContentView.swift */,
+				41A25F9823E0D2B900351FFC /* Assets.xcassets */,
+				41A25F9D23E0D2B900351FFC /* Main.storyboard */,
+				41A25FA023E0D2B900351FFC /* Info.plist */,
+				41A25FA123E0D2B900351FFC /* BitPriceMacTest.entitlements */,
+				41A25F9A23E0D2B900351FFC /* Preview Content */,
+			);
+			path = BitPriceMacTest;
+			sourceTree = "<group>";
+		};
+		41A25F9A23E0D2B900351FFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41A25F9B23E0D2B900351FFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41A25FAC23E1B9A000351FFC /* BitPriceTVTest */ = {
+			isa = PBXGroup;
+			children = (
+				41A25FAD23E1B9A000351FFC /* AppDelegate.swift */,
+				41A25FAF23E1B9A000351FFC /* ContentView.swift */,
+				41A25FB123E1B9A800351FFC /* Assets.xcassets */,
+				41A25FB623E1B9A800351FFC /* LaunchScreen.storyboard */,
+				41A25FB923E1B9A800351FFC /* Info.plist */,
+				41A25FB323E1B9A800351FFC /* Preview Content */,
+			);
+			path = BitPriceTVTest;
+			sourceTree = "<group>";
+		};
+		41A25FB323E1B9A800351FFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41A25FB423E1B9A800351FFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41A25FC223E1C20200351FFC /* BitPriceWatchTest */ = {
+			isa = PBXGroup;
+			children = (
+				41A25FC323E1C20200351FFC /* Interface.storyboard */,
+				41A25FC623E1C20B00351FFC /* Assets.xcassets */,
+				41A25FC823E1C20B00351FFC /* Info.plist */,
+			);
+			path = BitPriceWatchTest;
+			sourceTree = "<group>";
+		};
+		41A25FD123E1C20C00351FFC /* BitPriceWatchTest Extension */ = {
+			isa = PBXGroup;
+			children = (
+				41A25FD223E1C20C00351FFC /* ContentView.swift */,
+				41A25FD423E1C20C00351FFC /* HostingController.swift */,
+				41A25FD623E1C20C00351FFC /* ExtensionDelegate.swift */,
+				41A25FD823E1C21000351FFC /* Assets.xcassets */,
+				41A25FDD23E1C21000351FFC /* Info.plist */,
+				41A25FDA23E1C21000351FFC /* Preview Content */,
+			);
+			path = "BitPriceWatchTest Extension";
+			sourceTree = "<group>";
+		};
+		41A25FDA23E1C21000351FFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41A25FDB23E1C21000351FFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +284,85 @@
 				41A25F7123E0CADB00351FFC /* Sources */,
 				41A25F7223E0CADB00351FFC /* Frameworks */,
 				41A25F7323E0CADB00351FFC /* Resources */,
+				41A25FE823E1C21000351FFC /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				41A25FDF23E1C21000351FFC /* PBXTargetDependency */,
 			);
 			name = BitPriceTest;
 			productName = BitPriceTest;
 			productReference = 41A25F7523E0CADC00351FFC /* BitPriceTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		41A25F9123E0D2B200351FFC /* BitPriceMacTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A25FA223E0D2B900351FFC /* Build configuration list for PBXNativeTarget "BitPriceMacTest" */;
+			buildPhases = (
+				41A25F8E23E0D2B200351FFC /* Sources */,
+				41A25F8F23E0D2B200351FFC /* Frameworks */,
+				41A25F9023E0D2B200351FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPriceMacTest;
+			productName = BitPriceMacTest;
+			productReference = 41A25F9223E0D2B200351FFC /* BitPriceMacTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41A25FAA23E1B99F00351FFC /* BitPriceTVTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A25FBA23E1B9A800351FFC /* Build configuration list for PBXNativeTarget "BitPriceTVTest" */;
+			buildPhases = (
+				41A25FA723E1B99F00351FFC /* Sources */,
+				41A25FA823E1B99F00351FFC /* Frameworks */,
+				41A25FA923E1B99F00351FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitPriceTVTest;
+			productName = BitPriceTVTest;
+			productReference = 41A25FAB23E1B99F00351FFC /* BitPriceTVTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41A25FC023E1C20100351FFC /* BitPriceWatchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A25FE523E1C21000351FFC /* Build configuration list for PBXNativeTarget "BitPriceWatchTest" */;
+			buildPhases = (
+				41A25FBF23E1C20100351FFC /* Resources */,
+				41A25FE423E1C21000351FFC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A25FD023E1C20C00351FFC /* PBXTargetDependency */,
+			);
+			name = BitPriceWatchTest;
+			productName = BitPriceWatchTest;
+			productReference = 41A25FC123E1C20100351FFC /* BitPriceWatchTest.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		41A25FCC23E1C20C00351FFC /* BitPriceWatchTest Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A25FE123E1C21000351FFC /* Build configuration list for PBXNativeTarget "BitPriceWatchTest Extension" */;
+			buildPhases = (
+				41A25FC923E1C20C00351FFC /* Sources */,
+				41A25FCA23E1C20C00351FFC /* Frameworks */,
+				41A25FCB23E1C20C00351FFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitPriceWatchTest Extension";
+			productName = "BitPriceWatchTest Extension";
+			productReference = 41A25FCD23E1C20C00351FFC /* BitPriceWatchTest Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +375,18 @@
 				ORGANIZATIONNAME = "Thomas Cowern New";
 				TargetAttributes = {
 					41A25F7423E0CADB00351FFC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					41A25F9123E0D2B200351FFC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					41A25FAA23E1B99F00351FFC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					41A25FC023E1C20100351FFC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					41A25FCC23E1C20C00351FFC = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -124,6 +405,10 @@
 			projectRoot = "";
 			targets = (
 				41A25F7423E0CADB00351FFC /* BitPriceTest */,
+				41A25F9123E0D2B200351FFC /* BitPriceMacTest */,
+				41A25FAA23E1B99F00351FFC /* BitPriceTVTest */,
+				41A25FC023E1C20100351FFC /* BitPriceWatchTest */,
+				41A25FCC23E1C20C00351FFC /* BitPriceWatchTest Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +424,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41A25F9023E0D2B200351FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A25F9F23E0D2B900351FFC /* Main.storyboard in Resources */,
+				41A25F9C23E0D2B900351FFC /* Preview Assets.xcassets in Resources */,
+				41A25FA623E0D2EF00351FFC /* Assets.xcassets in Resources */,
+				41A25F9923E0D2B900351FFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FA923E1B99F00351FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A25FB823E1B9A800351FFC /* LaunchScreen.storyboard in Resources */,
+				41A25FB523E1B9A800351FFC /* Preview Assets.xcassets in Resources */,
+				41A25FBE23E1BA1E00351FFC /* Assets.xcassets in Resources */,
+				41A25FB223E1B9A800351FFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FBF23E1C20100351FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A25FC723E1C20B00351FFC /* Assets.xcassets in Resources */,
+				41A25FC523E1C20200351FFC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FCB23E1C20C00351FFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A25FDC23E1C21000351FFC /* Preview Assets.xcassets in Resources */,
+				41A25FEC23E1C36C00351FFC /* Assets.xcassets in Resources */,
+				41A25FD923E1C21000351FFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -147,12 +473,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A25F7923E0CADC00351FFC /* AppDelegate.swift in Sources */,
+				41A25F8D23E0CCF000351FFC /* BitData.swift in Sources */,
 				41A25F7B23E0CADC00351FFC /* SceneDelegate.swift in Sources */,
 				41A25F7D23E0CADC00351FFC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		41A25F8E23E0D2B200351FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A25FA523E0D2E900351FFC /* BitData.swift in Sources */,
+				41A25F9723E0D2B300351FFC /* ContentView.swift in Sources */,
+				41A25F9523E0D2B300351FFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FA723E1B99F00351FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A25FBD23E1BA1900351FFC /* BitData.swift in Sources */,
+				41A25FB023E1B9A000351FFC /* ContentView.swift in Sources */,
+				41A25FAE23E1B9A000351FFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A25FC923E1C20C00351FFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A25FD523E1C20C00351FFC /* HostingController.swift in Sources */,
+				41A25FE923E1C26500351FFC /* BitData.swift in Sources */,
+				41A25FD323E1C20C00351FFC /* ContentView.swift in Sources */,
+				41A25FD723E1C20C00351FFC /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A25FD023E1C20C00351FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A25FCC23E1C20C00351FFC /* BitPriceWatchTest Extension */;
+			targetProxy = 41A25FCF23E1C20C00351FFC /* PBXContainerItemProxy */;
+		};
+		41A25FDF23E1C21000351FFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A25FC023E1C20100351FFC /* BitPriceWatchTest */;
+			targetProxy = 41A25FDE23E1C21000351FFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		41A25F8323E0CAE500351FFC /* LaunchScreen.storyboard */ = {
@@ -161,6 +532,30 @@
 				41A25F8423E0CAE500351FFC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		41A25F9D23E0D2B900351FFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A25F9E23E0D2B900351FFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41A25FB623E1B9A800351FFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A25FB723E1B9A800351FFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		41A25FC323E1C20200351FFC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41A25FC423E1C20200351FFC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,6 +715,184 @@
 			};
 			name = Release;
 		};
+		41A25FA323E0D2B900351FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitPriceMacTest/BitPriceMacTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceMacTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceMacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceMacTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		41A25FA423E0D2B900351FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitPriceMacTest/BitPriceMacTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceMacTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceMacTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceMacTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		41A25FBB23E1B9A800351FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceTVTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceTVTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceTVTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		41A25FBC23E1B9A800351FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceTVTest/Preview Content\"";
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BitPriceTVTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceTVTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		41A25FE223E1C21000351FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceWatchTest Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BitPriceWatchTest Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		41A25FE323E1C21000351FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BitPriceWatchTest Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BitPriceWatchTest Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		41A25FE623E1C21000351FFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				IBSC_MODULE = BitPriceWatchTest_Extension;
+				INFOPLIST_FILE = BitPriceWatchTest/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		41A25FE723E1C21000351FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56F54J4H3N;
+				IBSC_MODULE = BitPriceWatchTest_Extension;
+				INFOPLIST_FILE = BitPriceWatchTest/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = MobileSoftwareServices.BitPriceTest.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +910,42 @@
 			buildConfigurations = (
 				41A25F8A23E0CAE500351FFC /* Debug */,
 				41A25F8B23E0CAE500351FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A25FA223E0D2B900351FFC /* Build configuration list for PBXNativeTarget "BitPriceMacTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A25FA323E0D2B900351FFC /* Debug */,
+				41A25FA423E0D2B900351FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A25FBA23E1B9A800351FFC /* Build configuration list for PBXNativeTarget "BitPriceTVTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A25FBB23E1B9A800351FFC /* Debug */,
+				41A25FBC23E1B9A800351FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A25FE123E1C21000351FFC /* Build configuration list for PBXNativeTarget "BitPriceWatchTest Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A25FE223E1C21000351FFC /* Debug */,
+				41A25FE323E1C21000351FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A25FE523E1C21000351FFC /* Build configuration list for PBXNativeTarget "BitPriceWatchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A25FE623E1C21000351FFC /* Debug */,
+				41A25FE723E1C21000351FFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
